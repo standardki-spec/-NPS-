@@ -677,7 +677,7 @@ const App: React.FC = () => {
     <div className="min-h-screen bg-slate-50 text-slate-900 pb-20 font-sans" ref={dashboardRef}>
       <nav className="sticky top-0 z-50 bg-white border-b border-slate-200 print:hidden">
         <div className="px-8 h-16 flex items-center justify-between">
-          <div className="flex items-center gap-3"><Activity className="text-[#007AFF] w-6 h-6" /><h1 className="font-bold text-lg tracking-tight">SIDIZ NPS BRAND ANALYTICS</h1>{isConnected && <span className="ml-4 px-3 py-1 bg-emerald-50 text-emerald-600 rounded-full text-[11px] font-bold border border-emerald-100">Live Connected</span>}</div>
+          <div className="flex items-center gap-3"><Activity className="text-[#007AFF] w-6 h-6" /><h1 className="font-bold text-lg tracking-tight">SIDIZ NPS DASHBOARD</h1>{isConnected && <span className="ml-4 px-3 py-1 bg-emerald-50 text-emerald-600 rounded-full text-[11px] font-bold border border-emerald-100">Live Connected</span>}</div>
           <div className="flex items-center gap-3">
              <button 
                 onClick={handleRefresh} 
@@ -1255,7 +1255,7 @@ const App: React.FC = () => {
         <DiscussionBoard selectedMonth={effectiveEndMonth} periodText={periodText} selectedChannels={selectedChannels} memos={memos} />
 
       </main>
-      <footer className="max-w-[1400px] mx-auto px-8 py-12 border-t border-slate-200 opacity-40 flex justify-between items-center"><p className="text-[10px] font-black uppercase tracking-widest">SIDIZ NPS BRAND ANALYTICS &copy; 2026</p></footer>
+      <footer className="max-w-[1400px] mx-auto px-8 py-12 border-t border-slate-200 opacity-40 flex justify-between items-center"><p className="text-[10px] font-black uppercase tracking-widest">SIDIZ NPS DASHBOARD &copy; 2026</p></footer>
     </div>
   );
 };
