@@ -693,8 +693,6 @@ const App: React.FC = () => {
              >
                <Download className="w-5 h-5" />
              </button>
-             <div className="h-6 w-px bg-slate-200 mx-2"></div>
-             <button onClick={fetchAIInsights} disabled={isAiLoading} className="bg-[#1D1D1F] text-white px-5 py-2 rounded-lg text-sm font-bold flex items-center gap-2 hover:bg-slate-800 transition-all shadow-sm active:scale-95"><BrainCircuit className="w-4 h-4" /> AI 성과 분석</button>
           </div>
         </div>
         
